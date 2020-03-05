@@ -1,0 +1,12 @@
+{
+  "name": "ItanBrownNodeExp",
+  "version": "1.0.0",
+  "description": "NodeExpressCurse",
+  "main": "meadowlark.js",
+  "author": "AnnaKarenina",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
