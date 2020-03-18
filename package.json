@@ -7,6 +7,22 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node meadowlark.js",
+    "start:w": "nodemon meadowlark.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.0.4",
+    "grunt-cafe-mocha": "^0.1.13",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-exec": "^3.0.0",
+    "linkchecker": "^1.1.0",
+    "mocha": "^7.1.0",
+    "nodemon": "^2.0.2",
+    "zombie": "^6.1.4"
   }
 }
